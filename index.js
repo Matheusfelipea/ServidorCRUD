@@ -1,6 +1,6 @@
 var express = require("express");
 var aplicacao = express();
-let clientes = require("./clientes");
+
 aplicacao.use(express.json());
 aplicacao.use(express.urlencoded({extended:false}));
 
